@@ -100,10 +100,38 @@
             margin: 0;
         }
 
-        .no-bullets{
-            list-style-type: none;
-            padding: 0;
+        form {
+            display: flex;
+            flex-direction: column;
         }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 5px;
+            width: 100px;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #085394;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0a6ebd;
+        }
+
     </style>
 </head>
 <body>
@@ -122,13 +150,15 @@
 
     <main>
         <section>
-            <h2>Información de contacto</h2>
-            <ul class="no-bullets">
-                <li><a href="mailto:ppelardas@uade.edu.ar">ppelardas@uade.edu.ar</a></li>
-                <li><a href="https://www.linkedin.com/in/pablo-pelardas">
-                    <img src="img/linkedin.png" alt="LinkedIn" width="20" height="20"> Pablo Pelardas
-                </a></li>
-            </ul>
+            <form action="mailto:ppelardas@uade.edu.ar">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
