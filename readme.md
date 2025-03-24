@@ -1,6 +1,6 @@
 # Ejercicio: Integrador
 
-**Ver ejercicio resuelto:** [https://pablopelardas.github.io/integrador-uva-1/Home.html](https://pablopelardas.github.io/integrador-uva-1/Home.html)
+**Ver ejercicio resuelto:** [https://pablopelardas.github.io/integrador-uva-1/home.html](https://pablopelardas.github.io/integrador-uva-1/home.html)
 
 ## Instrucciones
 
