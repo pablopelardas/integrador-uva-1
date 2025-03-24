@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #085394;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a.active {
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #085394;
+            border-bottom: 2px solid #085394;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #085394;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #085394;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #085394;
+            color: white;
+        }
+
+        th:first-child {
+            border-top-left-radius: 8px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 8px;
+        }
+
+        td:first-child {
+            border-bottom-left-radius: 8px;
+        }
+
+        td:last-child {
+            border-bottom-right-radius: 8px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avisos</h1>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./materias-2025.html" >Materias</a></li>
+                <li><a href="./avisos.html" class="active">Avisos</a></li>
+                <li><a href="./sobre-mi.html" >Sobre mi</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- la segunda será “Avisos” y debe tener una lista desordenada de tareas pendientes para cada una de las materias;   -->
+        <section>
+            <h2>Diseño y Desarrollo Web</h2>
+            <ul>
+                <li>Entregar el TP1</li>
+                <li>Estudiar para el parcial</li>
+            </ul>
+
+            <h2>Fundamentos de Informática</h2>
+            <ul>
+                <li>Entregar el TP1</li>
+                <li>Estudiar para el parcial</li>
+            </ul>
+
+            <h2>Arquitectura de Computadores</h2>
+            <ul>
+                <li>Entregar el TP1</li>
+                <li>Estudiar para el parcial</li>
+            </ul>
+
+            <h2>Marketing</h2>
+            <ul>
+                <li>Entregar el TP1</li>
+                <li>Estudiar para el parcial</li>
+            </ul>
+
+            <h2>Sistemas de Información I</h2>
+            <ul>
+                <li>Entregar el TP1</li>
+                <li>Estudiar para el parcial</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Pablo Pelardas</p>
+    </footer>
+</body>
+</html>

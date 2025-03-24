@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #085394;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a.active {
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #085394;
+            border-bottom: 2px solid #085394;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #085394;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #085394;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .intro {
+            text-align: justify;
+            margin-top: 20px;
+        }
+        .intro p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sobre mi</h1>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./materias-2025.html" >Materias</a></li>
+                <li><a href="./avisos.html">Avisos</a></li>
+                <li><a href="./sobre-mi.html" class="active">Sobre mi</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img src="img/perfil.jpg" alt="Foto de perfil de Pablo" class="profile-img">
+            <div class="intro">
+                <p>Hola, soy Pablo, un desarrollador fullstack con más de tres años de experiencia en el ámbito del desarrollo de software. Actualmente, me encuentro cursando la última materia de la Técnicatura Universitaria en Programación en la Universidad Tecnológica Nacional (UTN) de Pacheco, y decidí continuar mi formación académica anotandome en la Licenciatura en Gestión de Tecnología de la Información (Sistemas) en la UADE.</p>
+                <p>Además de mi formación en programación, cuento con tres años de estudios en Psicología, lo que me ha permitido desarrollar habilidades interpersonales y una perspectiva única para abordar problemas y trabajar en equipo. Esta combinación me es de gran utilidad para desarrollarme en mi carrera profesional.</p>
+                <p>Actualmente trabajo en Intuit, una empresa del sector salud, donde me desempeño en el desarrollo y mantenimiento de aplicaciones web, tanto en el frontend como en el backend. Mi rol implica la creación de soluciones integrales que abarcan desde la interfaz de usuario hasta la lógica del servidor. </p>
+                <p>No tengo una preferencia marcada por el desarrollo frontend o backend, ya que disfruto igualmente de ambos. Me apasiona crear soluciones completas y eficientes que resuelvan problemas reales, y siempre busco aprender nuevas tecnologías y metodologías para mejorar mis habilidades y aportar valor a los proyectos en los que participo.</p>
+                <p>En mi tiempo libre, me gusta leer libros de diversos géneros, desde literatura técnica hasta novelas, lo que me ayuda a mantener un equilibrio entre mi vida profesional y personal.</p>
+                <p>Mi objetivo profesional es seguir creciendo como desarrollador, contribuyendo a proyectos innovadores y desafiantes que me permitan aplicar mis conocimientos y seguir aprendiendo. Estoy siempre abierto a nuevas oportunidades y colaboraciones que me permitan expandir mi horizonte profesional.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Pablo Pelardas</p>
+    </footer>
+</body>
+</html>
